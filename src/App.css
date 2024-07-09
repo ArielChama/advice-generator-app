@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  color: rgba(255, 255, 255, 0.842);
+  font-family: 'Manrope';
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.card {
+  position: relative;
+  width: 500px;
+  background-color: hsl(217, 19%, 24%);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 10rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.185);
+  text-align: center;
+}
+
+.idAdvice {
+  color: hsl(150, 100%, 66%);
+  margin-bottom: 20px;
+}
+
+.advice {
+  font-size: 28px;
+}
+
+.line {
+  border: none;
+  height: 1px;
+  background-color: #4f5d74;
+  margin: 2rem 0;
+}
+
+.button {
+  position: absolute;
+  background-color: hsl(150, 100%, 66%);
+  padding: 15px;
+  border-radius: 100px;
+  border: transparent;
+  cursor: pointer;
+  transform: translateX(-50%);
+}
+
+.button:hover {
+  box-shadow: 0px 5px 40px hsla(150, 100%, 66%, 0.514);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
